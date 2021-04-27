@@ -1,0 +1,16 @@
+main{
+    width:15%;
+    margin:50px auto;
+    text-align: center;
+}
+table.tblinput{
+    margin:5px auto;
+}
+table.tbldb {
+    margin:50px auto;
+}
+table.tbldb th, table.tbldb td{
+    border-collapse:collapse;
+    border: 1px solid #000;
+    padding:5px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>FIRST APP</title>
+    </head>
+    <body>
+        <main>
+            <table class ="tblinput">
+                <tr>
+                    <td>
+                        <label>Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name-input">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Quantity:</label>
+                    </td>
+                    <td>
+                        <input type="text" id = "qty-input">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Amount:</label>
+                    </td>
+                    <td>
+                        <input type ="text" id = "amnt-input">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id = "additem-btn">Add item</button>
+                    </td>
+                    
+                </tr>
+            
+        </table>
+        <br>
+        <br>
+        <div>
+            <input placeholder="Search item name" id ="search-input">
+            <button id = "search-btn">Search</button>
+        </div>
+        <br><br><br>
+
+        <table id = "table" class ="tbldb">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Qty</th>
+                <th>Amount</th>
+                <th>Delete</th>
+                <th>Edit</th>
+                
+            </thead>
+            <tbody>
+
+            </tbody>
+
+        </table>
+
+        <section hidden id="update-row">
+            <label>Name:</label>
+            <input type="text" id="update-name-input">
+            <label>Quantity:</label>
+            <input type="text" id="update-qty-input">
+            <label>Amount:</label>
+            <input type="text" id="update-amnt-input">
+            
+            <button id="update-row-btn">Update</button>
+
+        </section>
+
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
